@@ -1,12 +1,16 @@
 import React from 'react';
-import Logo from '../assets/logo/family_guy_logo1.png';
+import Logo from '../assets/Family_Guy_Logo.svg.png';
+import './header.css'
 function Header(props){
 return(
     <div className="header">
-        <img src={Logo} alt='logo' />
-        <div className="score">
-            <p>curent score:</p>
-            <p>best score:</p>
+        <div className="left-header">
+        <img src={Logo} alt='logo' className='logo'/>
+        <span>Get points by clicking on an image but don't click on any more than once!</span>
+        </div>
+        <div className="rigth-header">
+            <p>curent score:{props.score}</p>
+            <p>best score:{props.bestScore}</p>
         </div>
     </div>
 )
