@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: darkgray;
+    font-family: monospace;
+}
+.left-header{
+    display: flex;
+    flex-direction: column;
+}
+p{
+    margin: 0;
+    margin-bottom: 15px;
+}
+.logo{
+    width: 10rem;
+    margin-bottom: 1rem;
+}
