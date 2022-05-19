@@ -47,7 +47,7 @@ function App() {
       <Header score={score} bestScore={bestScore}/>
       <div className="gameBoard">
       {dataArr.map((obj,i)=>(
-        <GameBoard obj={obj} key={i} handleClick={handleClick}/>
+        <GameBoard obj={obj} handleClick={handleClick} key={i}/>
       ))}
     </div>
     </div>
