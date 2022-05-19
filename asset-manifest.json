@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/memory-card/static/css/main.88ee9d55.css",
+    "main.js": "/memory-card/static/js/main.58d98b3a.js",
+    "static/media/Family_Guy_Logo.svg.png": "/memory-card/static/media/Family_Guy_Logo.svg.f258e6e6f1139f36b817.png",
+    "index.html": "/memory-card/index.html",
+    "main.88ee9d55.css.map": "/memory-card/static/css/main.88ee9d55.css.map",
+    "main.58d98b3a.js.map": "/memory-card/static/js/main.58d98b3a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.88ee9d55.css",
+    "static/js/main.58d98b3a.js"
+  ]
+}
